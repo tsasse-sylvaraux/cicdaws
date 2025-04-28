@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files: 
   - source: /
-    destination: /home/ubuntu/project_devops
+    destination: /home/ubuntu/project_devOps
 permissions:
-  - object: /home/ubuntu/project_devops
+  - object: /home/ubuntu/project_devOps
     owner: ubuntu
     group: ubuntu
 hooks:
