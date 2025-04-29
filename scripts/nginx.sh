@@ -4,7 +4,7 @@
 sudo systemctl daemon-reload
 sudo rm -f /etc/nginx/sites-enabled/default
 
-sudo cp /home/ubuntu/nomrepertoire/nginx/nginx.conf /etc/nginx/sites-available/nom
+sudo cp /home/ubuntu/project_devOps/nginx/nginx.conf /etc/nginx/sites-available/nom
 sudo ln -s /etc/nginx/sites-available/nom /etc/nginx/sites-enabled/
 #sudo ln -s /etc/nginx/sites-available/nom /etc/nginx/sites-enabled
 #sudo nginx -t
